@@ -1,0 +1,30 @@
+{
+  "name": "oxford_dictionary",
+  "version": "0.0.0",
+  "description": "Service for geting words.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "github.com/viktor-titov/oxford_dictionary"
+  },
+  "keywords": [
+    "oxford",
+    "dictionary"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "loglevel": "^1.9.1",
+    "puppeteer": "^22.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5"
+  },
+  "type": "module"
+}
